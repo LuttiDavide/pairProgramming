@@ -4,14 +4,14 @@ public class Main {
 
         System.out.println("Name: " + student.getName());
         System.out.println("Surname: " + student.getSurname());
-        System.out.println("Identification Number: " + student.getIdentificationNumber());
+        System.out.println("Identification Number: " + student.getId());
 
         student.setName("Giovanni");
         student.setSurname("Verdi");
-        student.setIdentificationNumber(56);
+        student.setId(56);
 
         System.out.println("Updated name: " + student.getName());
         System.out.println("Updated surname: " + student.getSurname());
-        System.out.println("Updated identification number: " + student.getIdentificationNumber());
+        System.out.println("Updated identification number: " + student.getId());
     }
 }

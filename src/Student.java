@@ -2,12 +2,12 @@ public class Student {
 
     private String name;
     private String surname;
-    private int identificationNumber;
+    private int id;
 
-    public Student(String name, String surname, int identificationNumber) {
+    public Student(String name, String surname, int id) {
         this.name = name;
         this.surname = surname;
-        this.identificationNumber = identificationNumber;
+        this.id = id;
     }
 
     public String getName() {
@@ -26,12 +26,12 @@ public class Student {
         this.surname = surname;
     }
 
-    public int getIdentificationNumber() {
-        return identificationNumber;
+    public int getId() {
+        return id;
     }
 
-    public void setIdentificationNumber(int identificationNumber) {
-        this.identificationNumber = identificationNumber;
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override
@@ -39,7 +39,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", identificationNumber=" + identificationNumber +
+                ", identificationNumber=" + id +
                 '}';
     }
 }
